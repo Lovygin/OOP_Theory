@@ -8,6 +8,7 @@ public class Main {
         Cat persik = new Cat("Persik");
         Cat barsik = new Cat("Barsik"); // Смотри приватный конструктор
         barsik.setAge(12);
+        persik.setAge(4);
         Cat sharchan = new Tiger("Sharchan",55.0f, true);
 
         //System.out.println(Cat.getPaws());
@@ -26,7 +27,7 @@ public class Main {
         sharchan.price = 40000.0f;
         Pet pet = new Tiger("Scar");
 
-        ((Tiger)pet).price = 450000.0f;
+        ((Tiger) pet).price = 450000.0f;
         System.out.println(pet);
 
         persik = null;
@@ -35,7 +36,7 @@ public class Main {
         ArrayList<Pet> list = new ArrayList<>(); // Добавляем в список всех наследников класса Pet
         list.add(new Tiger("Tiger"));
 
-        Pet pet2 = new Cat("Gav"); ((Cat)pet2).setAge(2);
+        Pet pet2 = new Cat("Gav"); ((Cat) pet2).setAge(2);
         pet2.setPrice(1000.0f);
 
         System.out.println(pet2);

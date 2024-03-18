@@ -2,7 +2,7 @@ package org.example;
 
 import java.util.Random;
 
-public class Cat extends Pet{
+public class Cat extends Pet {
     public String name; // dynamic field public - поле, которое видно за пределами класса
     private int age; // Загружаются при вызове new Cat
     public static int paws; // статическое количество лап = paw
