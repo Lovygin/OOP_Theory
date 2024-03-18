@@ -27,6 +27,12 @@ public class Main {
         sharchan.price = 40000.0f;
         Pet pet = new Tiger("Scar");
 
+        ArrayList<Pet> pets = new ArrayList<>();
+        pets.add(new Tiger("Striped", 35.4f,false )); // Striped = полосатый
+
+        ((Cat)pets.get(0)).setAge(12); // Используем поведение класса Cat в классе Tiger через прямую кастомизацию.
+        System.out.println(pets.get(0)); // Обращаемся к тигру через get ArrayList-a
+
         ((Tiger) pet).price = 450000.0f;
         System.out.println(pet);
 
