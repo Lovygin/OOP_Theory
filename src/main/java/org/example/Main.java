@@ -10,8 +10,15 @@ public class Main {
         barsik.setAge(12);
         Cat sharchan = new Tiger("Sharchan",55.0f, true);
 
+        //System.out.println(Cat.getPaws());
+
+        //System.out.println(barsik.getPaws()); // нельзя обращаться к статическому параметру/методу через экземпляр класса. Только через сам класс
+
         Cat.paws = 5; // устанавливаем статическое поле 1 раз
                       // все наследники класса получают это значение
+
+        //System.out.println(Integer.toBinaryString(1235)); - classic static method
+
         persik.setAge(4);
         System.out.println(barsik);
         System.out.println(persik);

@@ -5,7 +5,7 @@ public class Tiger extends Cat {
     public boolean dangerous;
 
     public Tiger(String name, float speed, boolean dangerous) {
-        super(name); // super - конструктор Cat (super class)
+        super(name); // super - публичный конструктор Cat (super class), который принимает только 1 параметр (name)
         this.speed = speed;
         this.dangerous = dangerous;
     }
