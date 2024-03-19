@@ -1,4 +1,4 @@
-package org.example;
+package Cats;
 
 public abstract class Pet {
     public float price = 0;

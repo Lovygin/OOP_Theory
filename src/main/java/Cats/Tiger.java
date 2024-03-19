@@ -1,4 +1,4 @@
-package org.example;
+package Cats;
 
 public class Tiger extends Cat {
     public float speed;

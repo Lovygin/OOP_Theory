@@ -1,4 +1,4 @@
-package org.example;
+package Cats;
 
 import java.util.Random;
 
