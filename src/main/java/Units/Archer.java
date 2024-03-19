@@ -8,7 +8,7 @@ public class Archer extends Unit{
     //public void reArm(){}
     private void reArm(){}
     //public void fire(){}
-    public void fire(){}
+    private void fire(){}
     @Override
     public void step() {
         reArm();
