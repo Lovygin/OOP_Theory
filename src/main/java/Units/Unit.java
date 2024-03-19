@@ -21,4 +21,9 @@ public abstract class Unit implements InGameInterface {
     public String getInfo() {
         return null;
     }
+
+    protected boolean isDead(){ return false;} // Абстрактный класс, все юниты могут умереть
+    protected void getDamage(){} // Абстрактный класс, все юниты могут получить урон
+                                 // Логично данные методы вынести в абстрактный класс
+
 }
